@@ -34,8 +34,6 @@
   position: relative;
 }
 
-/* speech bubble 13 */
-
 .sb5:before {
   content: "";
   width: 0px;
@@ -49,7 +47,7 @@
   top: 0px;
 }
 
-/*home*/
+/*Home page*/
 .home-img {
   width: 200px;
   height: 150px;
@@ -116,6 +114,7 @@ div.scrollmenu div {
   color: #008bdb;
 }
 
+/*about us page*/
 .contact-us {
   background-color: lightblue;
 }
@@ -124,12 +123,25 @@ div.scrollmenu div {
   height: 100px;
 }
 
+.overlap {
+  position: absolute;
+  top: -12px;
+  background-color: lightblue;
+  float: center;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+}
+
+/*Bouncy Castle Page*/
 .bouncy-castle-list {
   color: black;
   font-size: 14px;
   padding: 0px;
   margin: 0px;
   border-spacing: 0px;
+  text-decoration: underline;
 }
 
 .bouncy-castle-images {
